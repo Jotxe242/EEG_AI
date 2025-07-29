@@ -5,7 +5,9 @@ An electroencephalograms (EEG) is a measurement of the level of brain activity a
 
 So, for this work we achieved to get a very large database containing hundreds of EEG of more than 1400 seconds of measurement, with his artifacts marked by a qualified doctor, then the first step was to match, normalize and clean the data and then we chose a Long Short Term Memory (LSTM) as our neuronal network and used Optuna to optimize our hyperparameters and make the neuronal network's training, getting the next performance:
 
-![Matrix of confusion](images/Matrix_confussion.png) ![Lost](images/lost.png)
+![Matrix of confusion]() ![Lost]()
+<img src="images/Matrix_confussion.png" width="45%"> <img src="images/lost.png" width="45%">
+
 
 Additionaly, we use the Kuramoto model to made a short analysis looking for synchronization between channels to track impulses along the brain during a artefact but we didn´t find anything relevant.
 
