@@ -1,4 +1,4 @@
-# EEG_procesing
+# EEG_processing
 In this work we trained an AI to recognize artifacts in electroencephalograms (EEG) and search for synchronization in the brain through the Kuramoto model.
 
 An electroencephalogram (EEG) is a measurement of brain activity that consists of 24 electrodes placed around the head, where each electrode measures the electrical activity in its region. The difference between two electrodes is called a "channel," which is also a time series. The problem is that during EEG recording, there are measurement "errors" due to involuntary patient movements, such as eye blinks, eye movements, masseter muscle movement, etc. These errors are called "artifacts," and it requires an experienced doctor to detect artifacts in an EEG. Because of this, we decided to develop an AI that can detect them automatically.
